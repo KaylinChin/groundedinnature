@@ -3,3 +3,30 @@ body {
     margin: 40px;
     padding: 40px;
 }
+
+.inner-footer {
+    padding: 50px 100px;
+}
+
+footer {
+    background-color: green;
+}
+
+
+/* sticky nav */
+#main-nav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+#main-nav a {
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
